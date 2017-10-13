@@ -25,7 +25,8 @@ def triangle(height, outside_letter, inside_letter)
   end
 end
 
-5.times do triangle(height, outside_letter, inside_letter)
+5.times do
+  triangle(height, outside_letter, inside_letter)
 end
 
 def rectangle(height, width, outside_letter, inside_letter)
